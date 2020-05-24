@@ -7,35 +7,40 @@ try:
 except ImportError:
     from distutils.core import setup
 
-import pytzsub, sys, os, os.path
+import pytzsub
+import sys
+import os
+from os import path
+
+
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 me = 'Barabash Maxim'
 memail = 'maxim.s.barabash@gmail.com'
-ldesc = '''\
-World timezone definitions by country subdivision (e.g., provinces or states)
-'''
-
 packages = ['pytzsub']
 
-setup (
+setup(
     name='pytzsub',
     version=pytzsub.VERSION,
     zip_safe=True,
     description='World timezone definitions by country Subdivision (e.g., provinces or states)',
-    long_description=ldesc,
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author=me,
     author_email=memail,
     maintainer=me,
     maintainer_email=memail,
     url='https://github.com/maxim-s-barabash/pytzsub',
-    license=open('LICENSE','r').read(),
-    keywords=['timezone','tzinfo', 'datetime', 'olson', 'time'],
+    license=open('LICENSE', 'r').read(),
+    keywords=['timezone', 'tzinfo', 'datetime', 'olson', 'time'],
     packages=packages,
     package_data={'pytz': ['zone-sub.tab']},
-#    download_url='http://',
+    #    download_url='http://',
     platforms=['Independant'],
     include_package_data=True,
-    classifiers = [
+    classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
@@ -43,5 +48,5 @@ setup (
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules',
-        ],
-    )
+    ],
+)
