@@ -28,6 +28,12 @@ pip install pytzsub
 'America/Los_Angeles'
 ```
 
+```python
+>>> from pytzsub import all_code
+>>> 'US-CA' in all_code()
+True
+```
+
 ## Module test
 ```shell
 python -m pytzsub -v
