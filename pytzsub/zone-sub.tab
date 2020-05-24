@@ -22,7 +22,7 @@ AG	America/Antigua
 AI	America/Anguilla
 AL	Europe/Tirane
 AM	Asia/Yerevan
-AN	America/Curacao
+#AQ
 AO	Africa/Luanda
 AR	America/Argentina/Mendoza
 AS	Pacific/Pago_Pago
@@ -52,9 +52,11 @@ BL	America/St_Barthelemy
 BM	Atlantic/Bermuda
 BN	Asia/Brunei
 BO	America/La_Paz
+BQ	America/Kralendijk
 BR	America/Rio_Branco
 BS	America/Nassau
 BT	Asia/Thimphu
+BV	Europe/Oslo
 BW	Africa/Gaborone
 BY	Europe/Minsk
 BZ	America/Belize
@@ -73,6 +75,7 @@ CA-QC	America/Toronto
 CA-SK	America/Regina
 CA-YT	America/Whitehorse
 CC	Indian/Cocos
+CD	Africa/Kinshasa
 CF	Africa/Bangui
 CG	Africa/Brazzaville
 CH	Europe/Zurich
@@ -85,6 +88,7 @@ CO	America/Bogota
 CR	America/Costa_Rica
 CU	America/Havana
 CV	Atlantic/Cape_Verde
+CW	America/Curacao
 CX	Indian/Christmas
 CY	Asia/Nicosia
 CZ	Europe/Prague
@@ -104,9 +108,9 @@ ET	Africa/Addis_Ababa
 FI	Europe/Helsinki
 FJ	Pacific/Fiji
 FK	Atlantic/Stanley
+FM	Pacific/Pohnpei
 FO	Atlantic/Faroe
 FR	Europe/Paris
-FX	Europe/Paris
 GA	Africa/Libreville
 GB	Europe/London
 GD	America/Grenada
@@ -128,6 +132,7 @@ GU	Pacific/Guam
 GW	Africa/Bissau
 GY	America/Guyana
 HK	Asia/Hong_Kong
+#HM	Indian/Kerguelen
 HN	America/Tegucigalpa
 HR	Europe/Zagreb
 HT	America/Port-au-Prince
@@ -174,6 +179,7 @@ MD	Europe/Chisinau
 ME	Europe/Podgorica
 MF	America/Marigot
 MG	Indian/Antananarivo
+MH	Pacific/Kwajalein
 MK	Europe/Skopje
 ML	Africa/Bamako
 MM	Asia/Yangon
@@ -188,6 +194,7 @@ MU	Indian/Mauritius
 MV	Indian/Maldives
 MW	Africa/Blantyre
 MX	America/Chihuahua
+MY	Asia/Kuching
 MZ	Africa/Maputo
 NA	Africa/Windhoek
 NC	Pacific/Noumea
@@ -204,6 +211,7 @@ NZ	Pacific/Auckland
 OM	Asia/Muscat
 PA	America/Panama
 PE	America/Lima
+PF	Pacific/Tahiti
 PG	Pacific/Port_Moresby
 PH	Asia/Manila
 PK	Asia/Karachi
@@ -236,8 +244,10 @@ SM	Europe/San_Marino
 SN	Africa/Dakar
 SO	Africa/Mogadishu
 SR	America/Paramaribo
+SS	Africa/Juba
 ST	Africa/Sao_Tome
 SV	America/El_Salvador
+SX	America/Lower_Princes
 SY	Asia/Damascus
 SZ	Africa/Mbabane
 TC	America/Grand_Turk
@@ -258,6 +268,7 @@ TW	Asia/Taipei
 TZ	Africa/Dar_es_Salaam
 UA	Europe/Kiev
 UG	Africa/Kampala
+UM	Pacific/Midway
 US	America/New_York
 US-AK	America/Anchorage
 US-AL	America/Chicago
@@ -323,7 +334,6 @@ WF	Pacific/Wallis
 WS	Pacific/Pago_Pago
 YE	Asia/Aden
 YT	Indian/Mayotte
-YU	Europe/Belgrade
 ZA	Africa/Johannesburg
 ZM	Africa/Lusaka
 ZW	Africa/Harare
