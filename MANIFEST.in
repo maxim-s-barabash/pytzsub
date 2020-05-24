@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include pytzsub *.py
+recursive-include pytzsub zone-sub.tab
