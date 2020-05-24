@@ -33,7 +33,7 @@ setup(
     maintainer=me,
     maintainer_email=memail,
     url='https://github.com/maxim-s-barabash/pytzsub',
-    license=open('LICENSE', 'r').read(),
+    license='MIT License',
     keywords=['timezone', 'tzinfo', 'datetime', 'olson', 'time'],
     packages=packages,
     package_data={'pytz': ['zone-sub.tab']},
