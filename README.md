@@ -1,6 +1,8 @@
 # pytzsub
 
 [![Build Status](https://travis-ci.com/maxim-s-barabash/pytzsub.svg?branch=master)](https://travis-ci.com/maxim-s-barabash/pytzsub)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 World timezone definitions by country subdivision (e.g., provinces or states)
 
