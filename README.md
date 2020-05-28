@@ -39,7 +39,7 @@ True
 python -m pytzsub -v
 ```
 
+## Links
 
-## Time Zone Database
-
-https://www.iana.org/time-zones
+- Time Zone Database https://www.iana.org/time-zones
+- ISO_3166-2 https://en.wikipedia.org/wiki/ISO_3166-2
