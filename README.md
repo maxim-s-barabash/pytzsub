@@ -34,11 +34,6 @@ pip install pytzsub
 True
 ```
 
-## Module test
-```shell
-python -m pytzsub -v
-```
-
 
 ## Time Zone Database
 
