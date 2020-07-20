@@ -1,8 +1,8 @@
 # pytzsub
 
 [![Build Status](https://travis-ci.com/maxim-s-barabash/pytzsub.svg?branch=master)](https://travis-ci.com/maxim-s-barabash/pytzsub)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![PyPI version](https://badge.fury.io/py/pytzsub.svg)](https://badge.fury.io/py/pytzsub)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 World timezone definitions by country subdivision (e.g., provinces or states)
 
@@ -32,6 +32,15 @@ pip install pytzsub
 >>> from pytzsub import all_code
 >>> 'US-CA' in all_code()
 True
+```
+
+
+```python
+>>> from pytzsub import sub_timezone
+>>> from pytz import timezone
+>>> tz = timezone(sub_timezone('CA-QC'))
+>>> type(tz)
+<class 'pytz.tzfile.America/Toronto'>
 ```
 
 ## Links
